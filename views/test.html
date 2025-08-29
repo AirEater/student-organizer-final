@@ -1,0 +1,34 @@
+<!-- Example HTML -->
+<div class="card">
+    <div class="image-box">
+        <img src = "" />
+    </div>
+    <div class="content">
+        <h2>...</h2>
+        <p>Description...</p>
+    </div>
+</div>
+
+<!-- Example CSS -->
+.card {
+    width:400px;
+    aspect-ration: 1/0.7;
+    border-radius: 8px;
+    position: relative;
+    cursor:pointer;
+}
+
+.card .image-box{
+    witdth: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.card .image-box img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+}

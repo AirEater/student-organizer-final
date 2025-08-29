@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #000000, #434343);
+    color: white;
+    font-weight: bold;
+}
+
+/* 🔹 Navigation Bar */
+.navbar {
+    background: #222;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background: #4CAF50;
+    border-radius: 5px;
+}
+
+/* 🔹 Main Containers */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.form-container,
+.calendar-container {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    width: 45%;
+}
+
+/* 🔹 Form Elements */
+input, textarea, select, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* 🔹 Buttons */
+button, .btn {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+button:hover,
+.btn:hover {
+    background: #45a049;
+}
+
+/* 🔹 Success message */
+.success {
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* 🔹 Month Navigation */
+.month-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 8px;
+    background: #2a2a2a;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.month-nav .nav-left,
+.month-nav .nav-right {
+    flex: 1;
+    text-align: center;
+}
+
+.month-nav .nav-center {
+    flex: 2;
+    text-align: center;
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.month-nav .btn {
+    padding: 6px 12px;
+    background: #2196F3;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.month-nav .btn:hover {
+    background: #1976D2;
+}
+
+/* 🔹 Calendar */
+.calendar {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #edeae3;
+    color: #000000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calendar th,
+.calendar td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    min-height: 60px;
+}
+
+.calendar td.has-entry {
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* 🔹 Entries Table */
+.entries-table {
+    width: 100%;
+    background: #1c1c1c;
+    border-collapse: collapse;
+    color: white;
+}
+
+.entries-table th,
+.entries-table td {
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+/* 🔹 View Page Buttons */
+.nav-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}

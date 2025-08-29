@@ -1,0 +1,209 @@
+body {
+    background-image: url('../Images/login_page/Sunset Background Blue.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    height: 550px;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+.form-container {
+    flex:1;
+    padding: 35px; /* Added padding */
+    background: white;
+    border-radius: 10px;
+    display: flex; /* Use flex for internal alignment */
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0; /* Adjusted margin */
+  padding: 12px; /* Adjusted padding */
+  border: 0px solid #ddd;
+  border-radius: 20px;
+  background-color: rgb(198, 194, 255) ;
+  
+}
+
+.signup-container {
+    flex: 1;
+    padding: 40px; /* Added padding */
+    border-radius: 160px 0px 0px 160px;
+    background: linear-gradient(135deg, #8653ff, #ef72ff);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.form-container h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+.signup-container h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.signup-container p {
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight:bold;
+}
+
+.signin-container {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;     /* center vertically (optional) */
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.8em;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.sign-in {
+    background-color: #5A7FEC;
+    color: white;
+    width: 60%;
+    border-radius: 20px;
+    margin: 0 ; /* Center the button */
+    padding:12px;
+    border: 2px solid #9a45a5;
+}
+
+.sign-in:hover {
+    background-color: #a996f5;   /* hover background */
+    border-color: #ff0000;       /* hover border color */
+}
+
+.sign-up {
+    background-color: #c84ee7;
+    color: white;
+    width: 50%; /* Made smaller */
+    text-decoration: none;
+    border: 2px solid #e78ff3;
+    border-radius: 20px;
+    padding:4px;
+}
+
+.sign-up:hover {
+    background-color: #8100b4;   /* hover background */
+    border-color: #ffcc00;       /* hover border color */
+}
+
+.input-label {
+    display: block; /* Make label take full width */
+    text-align: left; /* Align text to the left */
+    font-size: 0.85em; /* Make it small */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #555;
+}
+
+.form-group {
+    width: 95%; /* Ensure form group takes full width */
+    margin-bottom: 0px; /* Space between form groups */
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.options-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.remember-me {
+    font-size: 12px;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.forgot-password-link {
+    font-size: 12px;
+    color: #5A7FEC;
+    text-decoration: none;
+}
+
+input::placeholder {
+  color: #4e20f5;           /* your desired color */
+  font-style: italic;    /* optional style */
+  opacity: 1;            /* make sure it’s not faded */
+}
+
+input {
+  border: 1px solid #ccc;       /* default border */
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;                /* remove browser default outline */
+}
+
+input:focus {
+  border: 2px solid #5900ff;    /* custom border color */
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.4); /* optional glow */
+}
+
+.success-message {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+    border: 1px solid #c3e6cb; /* Green border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
