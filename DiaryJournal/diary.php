@@ -101,7 +101,7 @@ while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
     <a href="http://localhost/student_organizer/index.php">Home</a>
     <a href="http://localhost/student_organizer/ExerciseTracker/index.php">Exercise Tracker</a>
     <a href="diary.php" class="active">Diary Journal</a>
-    <a href="money.php">Money Tracker</a>
+    <a href="../money.php">Money Tracker</a>
     <a href="http://localhost/student_organizer/HabitTracker/habit_page.php">Habit Tracker</a>
 </div>
 

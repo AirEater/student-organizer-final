@@ -33,7 +33,7 @@ $doneSet = done_set_for_date($pdo, $userId, $selected_date);
       <a href="/student_organizer/index.php" class="text-decoration-none">Home</a>
       <a href="/student_organizer/ExerciseTracker/index.php" class="text-decoration-none">Exercise Tracker</a>
       <a href="/student_organizer/DiaryJournal/diary.php" class="text-decoration-none">Diary Journal</a>
-      <a href="#" class="text-decoration-none">Money Tracker</a>
+      <a href="../money.php" class="text-decoration-none">Money Tracker</a>
     </div>
   </div>
 
