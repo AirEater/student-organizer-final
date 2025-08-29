@@ -140,7 +140,7 @@
             Diary Journal </a
           ><a
             class="link link-hover flex items-center gap-2"
-            href="money.php"
+            href="/student_organizer/money.php"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true"
@@ -353,7 +353,7 @@
                   'dashboard_page': '/student_organizer/index.php',
                   'exercise_tracker_page': '/student_organizer/ExerciseTracker/index.php', // Placeholder for future module
                   'diary_journal_page': '/student_organizer/DiaryJournal/diary.php',       // Placeholder for future module
-                  'money_tracker_page': 'money.php',
+                  'money_tracker_page': '/student_organizer/money.php',
                   'habit_tracker_page': '/student_organizer/HabitTracker/habit_page.php',       // Placeholder for future module
                   'profile_settings_page': 'profile.php',  // Placeholder for future module
                   'change_password_page': 'change_password.php' // Placeholder for future module
