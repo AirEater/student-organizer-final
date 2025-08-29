@@ -73,7 +73,7 @@ include __DIR__ . '/templates/header.php';
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="form-control">
-                    <label for="amount" class="label"><span class="label-text text-base font-medium">Amount</span></label><label class="input input-bordered flex items-center gap-2 mt-2"><span class="text-base-content/50 font-medium">RM</span><input type="number" name="amount" id="amount" placeholder="0.00" step="1.0" min=0 required="" class="grow"></label>
+                    <label for="amount" class="label"><span class="label-text text-base font-medium">Amount</span></label><label class="input input-bordered flex items-center gap-2 mt-2"><span class="text-base-content/50 font-medium">RM</span><input type="number" name="amount" id="amount" placeholder="0.00" step="0.01" min=0 required="" class="grow"></label>
                 </div>
                 <div class="form-control">
                     <label for="date" class="label"><span class="label-text text-base font-medium i68i88 spark-custom-i68i88" id="i68i88">Date of Transaction</span></label>

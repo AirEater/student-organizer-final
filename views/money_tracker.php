@@ -42,7 +42,7 @@ function get_category_icon($category) {
   <div class="flex items-center gap-4 mb-6">
     <!-- Back to Dashboard (left) -->
     <button class="btn btn-ghost gap-2 text-base-content/70 hover:text-base-content"
-            onclick="navigateTo('home_dashboard_page')">
+            onclick="navigateTo('dashboard_page')">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
                   <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
                         d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"/>
